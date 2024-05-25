@@ -1,0 +1,85 @@
+/*================================================================================
+	Item Name: Stack - Responsive Admin Theme
+	Author: PIXINVENT
+	Author URL: http://www.themeforest.net/user/pixinvent
+================================================================================
+
+NOTE:
+------
+PLACE HERE YOUR OWN SCSS CODES AND IF NEEDED, OVERRIDE THE STYLES FROM THE OTHER STYLESHEETS.
+WE WILL RELEASE FUTURE UPDATES SO IN ORDER TO NOT OVERWRITE YOUR STYLES IT'S BETTER LIKE THIS.  */
+
+.select2 {
+	width: 100% !important;
+}
+
+select {
+	-webkit-appearance: auto !important;
+}
+
+select[readonly] option {
+	display: none !important;
+}
+
+.item_row td {
+	position: relative;
+}
+
+.adjust_col {
+	width: 150px !important;
+}
+
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
+
+input[type=number] {
+	-moz-appearance: textfield;
+}
+
+#repeater td {
+	padding: 10px !important;
+}
+
+#repeater td {
+	padding: 3px !important;
+}
+
+/* updated css for typeahead */
+.typeahead.dropdown-menu {
+	/* position: relative !important;
+	inset: auto !important; */
+}
+
+.table-responsive {
+	scroll-behavior: smooth;
+}
+
+/* ---------------------------------------- */
+#action_dropdown_item {
+	padding: 0 !important;
+	text-align: center;
+}
+
+#action_dropdown_menu {
+	--bs-dropdown-min-width: 7rem !important;
+	--bs-dropdown-padding-y: 0rem !important;
+}
+
+#action_buttons {
+	display: inline-flex;
+	gap: 3px;
+
+}
+
+
+/* by usama -07-02-2023 */
+.readonly {
+	background-color: #eee !important;
+	pointer-events: none !important;
+	user-select: none !important; 
+}
+
+/* ------------------------------------------- */

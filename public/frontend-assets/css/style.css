@@ -1,0 +1,17 @@
+* {
+    box-sizing: border-box;
+}
+
+
+
+.block {
+
+    width: 100%;
+
+
+    background-color: aliceblue;
+}
+
+.block__pic {
+    width:100%;
+}
