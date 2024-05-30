@@ -4,8 +4,7 @@ SAP like system for your business !!!
 
 ## Description
 
-This is the whole SAP system where you can generate PO'S and sale order and records will be available in invetory reports (sales , purchase and per day inventory report). You can 
-see your transactions also and every modue will have some doc number generated automatically using series number and academic year. you can rectify your inventory also using rectification module and transfer bin-bin or warehouse-warehouse. we have claims module also which has flow of arppove/reject/revise data within multiple role of users.
+This is the whole SAP system where you can generate purchase order and sale order and records will be available in invetory reports (sales , purchase and per day inventory report). You can see your transactions also and every modue will have some doc number generated automatically using series number and academic year. you can rectify your inventory also using rectification module and transfer bin-bin or warehouse-warehouse. we have claims module also which has flow of arppove/reject/revise data within multiple role of users.
 
 ## Getting Started
 
@@ -14,8 +13,8 @@ see your transactions also and every modue will have some doc number generated a
 * None
 
 ### Installing
-* Clone the repository: git clone https://github.com/Shady-shaikh/blastMoives.git
-* Navigate to the project directory: cd blastMoives
+* Clone the repository: git clone https://github.com/Shady-shaikh/eureka.git
+* Navigate to the project directory: cd eureka
 
 ### Site Details
 
@@ -25,34 +24,40 @@ see your transactions also and every modue will have some doc number generated a
 * ![Bp Master](https://shady-shaikh.github.io/portfolio_usama/projects/eureka%20(2).png)
 * Logs
 * ![Logs](https://shady-shaikh.github.io/portfolio_usama/projects/eureka%20(3).png)
-* Order booking page
-* ![outlet wise](https://shady-shaikh.github.io/portfolio_usama/projects/eurekaapp%20(5).png)
-* Product list
-* ![Product list](https://shady-shaikh.github.io/portfolio_usama/projects/eurekaapp%20(6).png)
+* Form Example
+* ![Po Form](https://shady-shaikh.github.io/portfolio_usama/projects/eureka%20(4).png)
+* Item Addition
+* ![Product add](shady-shaikh.github.io/portfolio_usama/projects/eureka%20(5).png)
+* Daily Report
+* ![report](https://shady-shaikh.github.io/portfolio_usama/projects/eureka%20(6).png)
+* Bin transfer Module
+* ![bin transfer](https://shady-shaikh.github.io/portfolio_usama/projects/eureka%20(7).png)
+* Cliam
+* ![claim](https://shady-shaikh.github.io/portfolio_usama/projects/eureka%20(8).png)
 
 
 ### Executing program
 
-* You should have flutter installed before moving further
-* now after cloning project open it in andorid studio or vs code
-* open terminal and run below commands
-* ```bash
-   flutter clean
-   flutter pub get
-   flutter run
-* If you want to test in real device you can build app then share it in your device, below is the command
-*  ```bash
-    flutter build apk
+* You should have php installed before moving further
+* make sure to clone this repo inside www/ht docs depeding on wamp/xamp
+* make sure your server is running
+* you need to create database named as eureka then import this file there https://github.com/Shady-shaikh/eureka/blob/main/public/eureka_db.sql
+* after installing open this project in vs code and change your database file credentials which you can find in config/database.php
+* then search on any browser http://localhost/eureka/
 
 ## Usage
 
-* You need to create sales man and todays beat from internal users and beat calendar master 
-* First make an outelt then data will be reflected  in business parter module (eureka website) where you can see pending request section just fill out the details
-* Do assign same beat that you have created in beat calendar master (eureka website) in above form
-* After saving details you can check daily beats module you just need click on start to start that beat than outlet than you can create orders also
-* we have given couple of features like comments, soh, outstanding, visibility etc on outlet view page
-* you can click on + button to create orders and add item then go to cart to place that order
-* you can either start or skip outlets/beats and stop that beat 
+* login with creds superadmin@gmail.com and Pass@123
+* you can create users , business partners , products , warehouse/bins and much more in master
+* in order to add items in inventory you need to create po then forward that po to gr using + (clone) button once its done you can see items getting reflected in inventory
+* You can create mulitple companies from localhost/eureka/admin/company and login with that company email and default password (Pass@123)
+* After login with that company you can now create po's,gr's and sale order then order fulfilment and ar invoice
+* You can rectify your inventory using inventory rectification module found in inventory tab
+* You can trasnfer your data from bin-bin and warehouse-warehouse
+* You can return your items using sales return and credit note can be also added
+* A Distributor and Sub-Distributor role user can raise claim and it will be verified according to the flow like (Distributor->Channel (channel wise)->Head->Finance)
+* A claim can be approve/reject or revise by any of superior role users which is ther in flow
+* Make sure to enter proper details according to hul and enjoy...
 
 
 ## Authors
