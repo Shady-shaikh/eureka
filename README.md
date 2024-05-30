@@ -49,7 +49,8 @@ This is the whole SAP system where you can generate purchase order and sale orde
 
 * login with creds superadmin@gmail.com and Pass@123
 * You need create beats first (area-route-beat) in order to assign beat to any customers or salesman for app
-* you can create users , business partners , products , warehouse/bins and much more in master
+* you can create business partners , products , warehouse/bins and much more in master
+* You can create more user in internal users module (user management tab)
 * You can create mulitple companies from localhost/eureka/admin/company and login with that company email and default password (Pass@123)
 * After master you need to create purchase pricing in purchase pricing module found in pricing tab (export sheet then add data then import)
 * You can create sales price list also but it will take pricing data automatcially from pricing ladder (margin & scheme)
