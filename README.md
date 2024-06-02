@@ -19,21 +19,21 @@ This is the whole SAP system where you can generate purchase order and sale orde
 ### Site Details
 
 * Login page
-* ![Login Page](https://shady-shaikh.github.io/portfolio_usama/projects/eureka%20(1).png)
+  ![Login Page](https://shady-shaikh.github.io/portfolio_usama/projects/eureka%20(1).png)
 * Business Partner Master Details
-* ![Bp Master](https://shady-shaikh.github.io/portfolio_usama/projects/eureka%20(2).png)
+  ![Bp Master](https://shady-shaikh.github.io/portfolio_usama/projects/eureka%20(2).png)
 * Logs
-* ![Logs](https://shady-shaikh.github.io/portfolio_usama/projects/eureka%20(3).png)
+  ![Logs](https://shady-shaikh.github.io/portfolio_usama/projects/eureka%20(3).png)
 * Form Example
-* ![Po Form](https://shady-shaikh.github.io/portfolio_usama/projects/eureka%20(4).png)
+  ![Po Form](https://shady-shaikh.github.io/portfolio_usama/projects/eureka%20(4).png)
 * Item Addition
-* ![Product add](https://shady-shaikh.github.io/portfolio_usama/projects/eureka%20(5).png)
+  ![Product add](https://shady-shaikh.github.io/portfolio_usama/projects/eureka%20(5).png)
 * Daily Report
-* ![report](https://shady-shaikh.github.io/portfolio_usama/projects/eureka%20(6).png)
+  ![report](https://shady-shaikh.github.io/portfolio_usama/projects/eureka%20(6).png)
 * Bin transfer Module
-* ![bin transfer](https://shady-shaikh.github.io/portfolio_usama/projects/eureka%20(7).png)
+  ![bin transfer](https://shady-shaikh.github.io/portfolio_usama/projects/eureka%20(7).png)
 * Cliam
-* ![claim](https://shady-shaikh.github.io/portfolio_usama/projects/eureka%20(8).png)
+  ![claim](https://shady-shaikh.github.io/portfolio_usama/projects/eureka%20(8).png)
 
 
 ### Executing program
